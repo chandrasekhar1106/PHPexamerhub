@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+span.c:before {
+            content: "";
+            border-style: solid;
+            border-width: 0 15px 15px 15px;
+            border-color:  transparent transparent rgba(0,102,255,.5) transparent;
+            height: 0;
+            position: absolute;
+            top: -17px;
+            width: 0;
+        }
+
+        span.c {
+            background-color: rgba(0,102,255,.15);
+            border: 2px solid rgba(0,102,255,.5);
+            border-radius: 10px;
+            color: #000;
+            display: none;
+            padding: 10px;
+            position: relative;
+        }
+
+     textarea {
+            display: block
+        }
+
+       textarea:hover + span {
+            display: inline-block;
+            margin: 10px 0 0 10px
+        }
+
+ input {
+            display: block
+        }
+
+        input:hover + span {
+            display: inline-block;
+            margin: 10px 0 0 10px
+        }
+
+
+
+
+
+
+
+span.co:before {
+            content: "";
+            border-style: solid;
+            border-width: 0 15px 15px 15px;
+            border-color:  transparent transparent rgba(0,102,255,.5) transparent;
+            height: 0;
+            position: absolute;
+            top: -17px;
+            width: 0;
+        }
+
+        span.co {
+            background-color: rgba(0,102,255,.15);
+            border: 2px solid rgba(0,102,255,.5);
+            border-radius: 10px;
+            color: #000;
+            display: none;
+            padding: 10px;
+            position: relative;
+        }

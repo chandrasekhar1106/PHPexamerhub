@@ -1,0 +1,4 @@
+<Files *>
+Order allow,deny
+ 
+AllowOverride all</Files>
